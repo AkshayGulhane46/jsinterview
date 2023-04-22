@@ -1,0 +1,112 @@
+/* Style for mobile devices */
+.main {
+    padding: 10px;
+  }
+  
+  .heading {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #E80F88;
+  }
+  
+  .content {
+    padding: 10px;
+    border: 1px solid #F73D93 ;
+    border-radius: 1rem;
+
+  }
+  .content:hover{
+    transition: ease-in-out 0.02s;
+    box-shadow: 0px 0px 20px 0px #F73D93;
+    border-radius: 1rem;
+    border: none;
+  }
+  
+  .question {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #F73D93;
+  }
+  
+  .answer {
+    white-space: pre-wrap;
+    font-size: 1rem;
+    list-style: inside disc;
+    overflow: auto;
+    word-wrap: break-word;
+    color: #CBE4DE;
+
+  }
+  
+  .code {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    width: 80vw;
+    color: #CBE4DE;
+  }
+  
+  /* Set the minimum width of the textarea to 250px */
+  textarea {
+    min-width: 250px;
+    font-size: 1rem;
+    max-width: fit-content;
+  }
+  .spacer{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #D6D5A8;
+  }
+
+  .explaination {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    word-wrap: break-word;
+    color: #D6D5A8;
+  }
+  
+  /* Style for larger devices */
+  @media screen and (min-width: 768px) {
+    .main {
+      max-width: 768px;
+      margin: 0 auto;
+    }
+  
+    .heading {
+      margin-bottom: 30px;
+      font-size: 1.2rem;
+    }
+  
+    .content {
+      padding: 20px;
+    }
+  
+    .question {
+      font-size: 1.2rem;
+    }
+  
+    .answer {
+      font-size: 1.2rem;
+
+    }
+  
+    .code {
+      font-size: 1.2rem;
+      width: 100vw;
+      font-family: 'Courier New', Courier, monospace;
+      color: #CBE4DE;
+    }
+  
+    .explaination {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .code {
+      width: 50vw;
+    }
+  }
+  
