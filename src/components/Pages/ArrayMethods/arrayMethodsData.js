@@ -152,3 +152,54 @@ console.log(sum2);
 94
 ` 
 }
+
+
+export const op4= {
+    topic : "Chaining Demo",
+    question : "Return names of students who scored than particular marks",
+    answer : 
+   `let students2 = [
+{name:"akshay" , rollNo : 12 , marks: 30},
+{name:"ramesh" , rollNo : 22 , marks: 31},
+{name:"rambhau" , rollNo : 42 , marks: 33},
+];
+`,
+    code :
+`const namesgreater = students2.filter((stu) => stu.marks > 30).map(stu=>stu.name)
+`,
+    explaination : `
+    'AKSHAY', 'RAMESH', 'RAMBHAU']
+` 
+}
+
+
+export const op5= {
+    topic : "Chaining Demo 2",
+    question : "",
+    answer : 
+   `let students2 = [
+{name:"akshay" , rollNo : 12 , marks: 30},
+{name:"ramesh" , rollNo : 22 , marks: 31},
+{name:"rambhau" , rollNo : 42 , marks: 33},
+];
+
+return total marks of studens with students with marks 
+greater than 60 after 20 makrs added to those who scored less than 30
+we will check if any student have marks less than 60
+then if less than 60 then add 20 marks grace 
+then filter students who make marks greater than 60
+then add all of the marks 
+`,
+code :`
+const totalmarks = students2.map((stu) => {
+    if(stu.marks < 60){
+        stu.marks = stu.marks + 20;
+    }
+    return stu
+}).filter(stu => stu.marks > 60)
+.reduce((acc,curr) => acc + curr.marks , 0);
+`,
+    explaination : `
+    149
+` 
+}

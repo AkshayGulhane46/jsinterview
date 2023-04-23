@@ -1,6 +1,10 @@
 /* Style for mobile devices */
 .main {
     padding: 10px;
+    
+  }
+  .individual{
+    background-color: #161617;
   }
   
   .heading {
@@ -13,13 +17,15 @@
     padding: 10px;
     border: 1px solid #F73D93 ;
     border-radius: 1rem;
-
+    background-color: black;
+ 
   }
   .content:hover{
     transition: ease-in-out 0.02s;
     box-shadow: 0px 0px 20px 0px #F73D93;
     border-radius: 1rem;
     border: none;
+    background-color: black;
   }
   
   .question {
@@ -27,7 +33,12 @@
     font-weight: bold;
     font-size: 1rem;
     color: #F73D93;
+    background-color: black;
   }
+  .question p{
+    background-color: black;
+  }
+  
   
   .answer {
     white-space: pre-wrap;
@@ -36,27 +47,37 @@
     overflow: auto;
     word-wrap: break-word;
     color: #CBE4DE;
+    background-color: black;
+  }
 
+  .answer p{
+    background-color: black;
   }
   
   .code {
     margin-top: 10px;
-    margin-bottom: 10px;
     font-size: 1rem;
     width: 80vw;
     color: #CBE4DE;
+    background-color: black;
+  }
+
+  .code span{
+    background-color: black;
   }
   
   /* Set the minimum width of the textarea to 250px */
   textarea {
     min-width: 250px;
     font-size: 1rem;
+    background-color: black;
     max-width: fit-content;
   }
   .spacer{
     margin-top: 10px;
     margin-bottom: 10px;
     color: #D6D5A8;
+    background-color: black;
   }
 
   .explaination {
@@ -65,6 +86,11 @@
     font-size: 1rem;
     word-wrap: break-word;
     color: #D6D5A8;
+    background-color: black;
+  }
+  
+  .explaination p{
+    background-color: black;
   }
   
   /* Style for larger devices */
@@ -72,6 +98,7 @@
     .main {
       max-width: 768px;
       margin: 0 auto;
+      
     }
   
     .heading {
@@ -81,14 +108,17 @@
   
     .content {
       padding: 20px;
+      background-color: black;
     }
   
     .question {
       font-size: 1.2rem;
+      background-color: black;
     }
   
     .answer {
       font-size: 1.2rem;
+      background-color: black;
 
     }
   

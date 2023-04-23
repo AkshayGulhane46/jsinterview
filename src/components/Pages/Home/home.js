@@ -8,9 +8,11 @@ function home(){
         <div className='heading'>
             <HomeSection{...heading}/>            
         </div>
-        <div className='concepts'>
-            <HomeSection{...concepts}/>
-        </div>
+
+        <div className='concepts-section'>
+        <button className='concept-btn'><a href='/arrayMethods'> Array Methods </a></button>
+        <button className='concept-btn'><a href='/functions'> Functions </a></button>
+        </div>    
     </>    
     )
 }

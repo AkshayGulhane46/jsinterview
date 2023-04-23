@@ -3,7 +3,8 @@
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import './App.css';
 import Home from './components/Pages/Home/home';
-import Concept from './components/Pages/Concept/concept'
+import ArrayMethods from './components/Pages/ArrayMethods/arrayMethods';
+import Functions from './components/Pages/Functions/functions';
 
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
     <Router>
       <Routes>
           <Route path='/' element={<Home/>}/>
-          <Route path='/concepts' element={<Concept/>}/>
+          <Route path='/arrayMethods' element={<ArrayMethods/>}/>
+          <Route path='/functions' element={<Functions/>}/>
       </Routes>
     </Router>
   );

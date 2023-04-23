@@ -1,7 +1,5 @@
-import './concept.css'
-import Text from 'react'
-import ConceptSection from './conceptSection';
-import { maps, filter , reduce , FiltervsForeach ,op1 , op2 , op3} from './data';
+import ConceptSection from '../Common/conceptSection';
+import { maps, filter , reduce , FiltervsForeach ,op1 , op2 , op3, op4 , op5} from './arrayMethodsData';
 
 function concept(){
     return(
@@ -15,8 +13,8 @@ function concept(){
             <ConceptSection{...op1}/>
             <ConceptSection{...op2}/>
             <ConceptSection{...op3}/>
-            
-
+            <ConceptSection{...op4}/>
+            <ConceptSection{...op5}/>
         </div>
       </div>
 
