@@ -1,8 +1,8 @@
 /* Style for mobile devices */
 .main {
     padding: 10px;
-    opacity: 0;
-    filter: blur(5px);
+    opacity: 1;
+    filter: blur(0px);
     transform: translateX(0);
     transition: all 1s ;
   }
